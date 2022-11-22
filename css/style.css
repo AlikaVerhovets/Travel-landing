@@ -1,0 +1,703 @@
+body {
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+section {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+}
+
+.svg-container {
+    width: 100%;
+    max-width: 1920px;
+}
+
+/* section up */
+
+#vdnh, #kiev {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 53px;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    
+    color: #212121;
+}
+
+#april {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 53px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+
+#travel {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #212121;
+}
+
+#eat-love {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #212121;
+}
+
+#what {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+#about-text {
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #212121;
+}
+
+#about-name {
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #212121;
+}
+
+#about-quote {
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #212121;
+}
+
+#about {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+}
+
+
+/* slider */
+
+.svg-container-slide {
+    width: 100%;
+    max-width: 400px;
+}
+
+.section-slider {
+    margin: -9px 0px -2px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-back-container {
+    z-index: 0;
+}
+
+.slider-background {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+}
+
+.slider-container {
+    max-width: 1275px;
+    width: 70%;
+
+    z-index: 1;
+}
+
+.img-slider {
+    display: flex;
+    max-width: 100%;
+    height: 230px;
+}
+
+#header1, #header2, #header3, #header4, #header5, #header6 {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+#text1, #text2, #text3, #text4, #text5, #text6 {
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.width100 {
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    max-height: 455px;
+}
+
+button {
+    background-color: rgb(170 173 176 / 76%);
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    max-width: 40px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-arrow {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.img-arrow.right {
+    margin: 0 0 0 5px;
+}
+
+.img-arrow.left {
+    margin: 0 5px 0 0;
+}
+
+/* section down */
+
+#other, #deinde, #eurotrip, #dream-trip {
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+#email, #telephone, #street {
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+}
+
+#contuct-us, #adress, #prises {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
+
+/* footer */
+
+footer {
+    height: 100%;
+    max-width: 1920px;
+    width: 100%;
+    min-height: 84px;
+
+    background: #ECC567;
+
+    color: #362616;
+
+    margin-top: -8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* animations */
+
+@keyframes heart {
+    0% {
+        -webkit-transform: matrix(0.75, 0, 0, 0.75, 1412, 1155);
+        -ms-transform: matrix(0.75, 0, 0, 0.75, 1412, 1155);
+        transform: matrix(0.75, 0, 0, 0.75, 1412, 1155);
+    }
+  
+    100% {
+        -webkit-transform: matrix(0.75, 0, 0, 0.75, 1412, 1145);
+        -ms-transform: matrix(0.75, 0, 0, 0.75, 1412, 1145);
+        transform: matrix(0.75, 0, 0, 0.75, 1412, 1145);
+    }
+}
+
+@keyframes heartMob {
+    0% {
+        -webkit-transform: matrix(0.75, 0, 0, 0.75, 969.75, 1155);
+        -ms-transform: matrix(0.75, 0, 0, 0.75, 969.75, 1155);
+        transform: matrix(0.75, 0, 0, 0.75, 969.75, 1155);
+    }
+  
+    100% {
+        -webkit-transform: matrix(0.75, 0, 0, 0.75, 969.75, 1145);
+        -ms-transform: matrix(0.75, 0, 0, 0.75, 969.75, 1145);
+        transform: matrix(0.75, 0, 0, 0.75, 969.75, 1145);
+    }
+}
+
+@keyframes tower {
+    from {
+        -webkit-transform: translateX(1413px) translateY(309px) rotate(0deg);
+        -ms-transform: translateX(1413px) translateY(309px) rotate(0deg);
+        transform: translateX(1413px) translateY(309px) rotate(0deg);
+    }
+  
+    to {
+        -webkit-transform: translateX(1413px) translateY(309px) rotate(12deg);
+        -ms-transform: translateX(1413px) translateY(309px) rotate(12deg);
+        transform: translateX(1413px) translateY(309px) rotate(12deg);
+    }
+}
+
+@keyframes towerMob {
+    from {
+        -webkit-transform: translateX(984.75px) translateY(309px) rotate(0deg);
+        -ms-transform: translateX(984.75px) translateY(309px) rotate(0deg);
+        transform: translateX(984.75px) translateY(309px) rotate(0deg);
+    }
+  
+    to {
+        -webkit-transform: translateX(984.75px) translateY(309px) rotate(12deg);
+        -ms-transform: translateX(984.75px) translateY(309px) rotate(12deg);
+        transform: translateX(984.75px) translateY(309px) rotate(12deg);
+    }
+}
+
+@keyframes boats {
+    0% {
+        -webkit-transform: matrix(0.75, 0, 0, 0.75, 1076, 590);
+        -ms-transform: matrix(0.75, 0, 0, 0.75, 1076, 590);
+        transform: matrix(0.75, 0, 0, 0.75, 1076, 590);
+    }
+  
+    100% {
+        -webkit-transform: matrix(0.75, 0, 0, 0.75, 750, 590);
+        -ms-transform: matrix(0.75, 0, 0, 0.75, 750, 590);
+        transform: matrix(0.75, 0, 0, 0.75, 750, 590);
+    }
+}
+
+@keyframes boatsMob {
+    0% {
+        -webkit-transform: matrix(0.75, 0, 0, 0.75, 633.75, 590);
+        -ms-transform: matrix(0.75, 0, 0, 0.75, 633.75, 590);
+        transform: matrix(0.75, 0, 0, 0.75, 633.75, 590);
+    }
+  
+    100% {
+        -webkit-transform: matrix(0.75, 0, 0, 0.75, 307, 590);
+        -ms-transform: matrix(0.75, 0, 0, 0.75, 307, 590);
+        transform: matrix(0.75, 0, 0, 0.75, 307, 590);
+    }
+}
+
+@keyframes boat {
+    from {
+        -webkit-transform: translateX(1335px) translateY(1085px) rotate(0deg);
+        -ms-transform: translateX(1335px) translateY(1085px) rotate(0deg);
+        transform: translateX(1335px) translateY(1085px) rotate(0deg);
+    }
+  
+    to {
+        -webkit-transform: translateX(1290px) translateY(1085px) rotate(-6deg);
+        -ms-transform: translateX(1290px) translateY(1085px) rotate(-6deg);
+        transform: translateX(1290px) translateY(1085px) rotate(-6deg);
+    }
+}
+
+@keyframes boatMob {
+    from {
+        -webkit-transform: translateX(820px) translateY(1085px) rotate(0deg);
+        -ms-transform: translateX(820px) translateY(1085px) rotate(0deg);
+        transform: translateX(820px) translateY(1085px) rotate(0deg);
+    }
+  
+    to {
+        -webkit-transform: translateX(775px) translateY(1085px) rotate(-6deg);
+        -ms-transform: translateX(775px) translateY(1085px) rotate(-6deg);
+        transform: translateX(775px) translateY(1085px) rotate(-6deg);
+    }
+}
+
+#heart-point_xA0_Изображение {
+    animation: heart 0.5s infinite alternate ease;
+}
+
+#heart-point-mob_xA0_Изображение {
+    animation: heartMob 0.5s infinite alternate ease;
+}
+
+#tower_xA0_Изображение:hover {
+    transform-origin: 0px 244px;
+    animation: tower 1s infinite alternate;
+}
+
+#tower-mob_xA0_Изображение:hover {
+    transform-origin: 0px 244px;
+    animation: towerMob 1s infinite alternate;
+}
+
+#boats_xA0_Изображение {
+    animation: boats 7s infinite alternate ease-in-out;
+}
+
+#boats-mob_xA0_Изображение {
+    animation: boatsMob 7s infinite alternate ease-in-out;
+}
+
+#boat_xA0_Изображение {
+    transform-origin: 150px 75px;
+    animation: boat 6s infinite alternate ease-in-out;
+}
+
+#boat-mob_xA0_Изображение {
+    transform-origin: 150px 75px;
+    animation: boatMob 6s infinite alternate ease-in-out;
+}
+
+.full {
+    display: block;
+}
+
+.mob {
+    display: none;
+}
+
+/* flexible */
+
+@media only screen and (max-width: 1650px) and (min-width: 1300px) {
+    #header2 {
+        font-size: 45px;
+    }
+
+    #text2 {
+        font-size: 26px;
+    }
+
+    #text2_xA0_Изображение {
+        transform: translateY(43px) translateX(-20px);
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .slider-container {
+        max-width: 900px;
+    }
+
+    footer {
+        min-height: 50px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .slider-container {
+        max-width: 500px;
+    }
+
+    footer {
+        min-height: 50px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 800px) {
+    #header2 {
+        font-size: 43px;
+    }
+
+    #text2 {
+        font-size: 24px;
+    }
+
+    #text2_xA0_Изображение {
+        transform: translateY(28px) translateX(-20px);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .slider-container {
+        max-width: 300px;
+        width: 90%;
+    }
+
+    button {
+        height: 34px;
+    }
+
+    .img-arrow {
+        max-width: 14px;
+        max-height: 14px;
+    }
+
+    .img-arrow.left {
+        margin: 0 3px 0 0;
+    }
+
+    .img-arrow.right {
+        margin: 0 0 0 3px;
+    }
+
+    footer {
+        min-height: 40px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .full {
+        display: none;
+    }
+    
+    .mob {
+        display: block;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .slider-container {
+        max-width: 650px;
+        width: 90%;
+    }
+
+    .full {
+        display: none;
+    }
+    
+    .mob {
+        display: block;
+    }
+
+    footer {
+        min-height: 40px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+/* MOBILE */
+
+/* section up mobile */
+
+#vdnh-mob, #kiev-mob {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 53px;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    
+    color: #212121;
+}
+
+#april-mob {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 53px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+}
+
+#travel-mob {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #212121;
+}
+
+#eat-love-mob {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #212121;
+}
+
+#what-mob, #about-mob {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 61px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+#about-text-mob {
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+
+    color: #212121;
+}
+
+#about-name-mob {
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #212121;
+}
+
+#about-quote-mob {
+    font-family: 'Fira Sans Extra Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+
+    color: #212121;
+}
+
+/* section down */
+
+#other-mob, #deinde-mob, #eurotrip-mob, #dream-trip-mob {
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+#email-mob, #telephone-mob {
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+}
+
+#street-mob {
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+}
+
+#contuct-us-mob, #adress-mob, #prises-mob {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+}
